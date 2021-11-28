@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.watchlist.WatchListFragment">
+
+    <data>
+        <variable
+            name="watchListViewModel"
+            type="com.elvanerdem.moviesandtv.ui.watchlist.WatchListViewModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/background_color">
+
+        <include
+            android:id="@+id/toolbarLayout"
+            layout="@layout/layout_toolbar"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvWatchList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/layout_item_watchlist"
+            android:paddingRight="12dp"
+            android:paddingLeft="12dp"
+            app:watchListData="@{watchListViewModel.watchList}"/>
+
+    </LinearLayout>
+
+</layout>

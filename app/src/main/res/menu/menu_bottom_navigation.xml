@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/moviesFragment"
+        android:icon="@drawable/ic_movie"
+        android:menuCategory="secondary"
+        android:title="@string/movies" />
+    <item
+        android:id="@+id/tvSeriesFragment"
+        android:icon="@drawable/ic_television"
+        android:menuCategory="secondary"
+        android:title="@string/tv_series" />
+    <item
+        android:id="@+id/watchListFragment"
+        android:icon="@drawable/ic_watch_list"
+        android:menuCategory="secondary"
+        android:title="@string/watch_list" />
+    <item
+        android:id="@+id/searchFragment"
+        android:icon="@drawable/ic_search"
+        android:menuCategory="secondary"
+        android:title="@string/search" />
+</menu>

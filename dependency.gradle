@@ -1,0 +1,21 @@
+ext {
+
+    // hilt
+    hiltVersion = "2.38.1"
+
+    // Retrofit
+    retrofitVersion = "2.9.0"
+
+    // Room
+    roomVersion = "2.3.0"
+
+    // Navigation
+    navigationVersion = "2.3.3"
+
+    // OkHttp
+    okHttpVersion = "4.9.1"
+
+    // Timber
+    timberVersion = "4.7.1"
+
+}
