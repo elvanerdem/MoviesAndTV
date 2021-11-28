@@ -33,5 +33,13 @@ This application is developed MVVM clean archirecture.
 
 
 
+https://user-images.githubusercontent.com/10457267/143786736-16ce7a7d-8a9a-4cd0-868c-6be39390a75b.mp4
+
+
+https://user-images.githubusercontent.com/10457267/143786746-21b2b8c5-341d-4bc8-9154-f2a41b3b5b40.mp4
+
+
+
+
 
 
