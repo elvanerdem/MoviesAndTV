@@ -31,10 +31,16 @@ This application is developed MVVM clean archirecture.
 - Search
 
 
-https://user-images.githubusercontent.com/10457267/143786869-a49765bf-1385-413e-ac51-f524991246ca.mp4
-
+https://user-images.githubusercontent.com/10457267/143786869-a49765bf-1385-413e-ac51-f524991246ca.mp4 
 
 https://user-images.githubusercontent.com/10457267/143786873-8b0aed14-1146-437c-98f9-2583fc9d391d.mp4
+
+
+### Upcoming Features
+Unit tests will be added soon. :rocket:
+
+
+
 
 
 
